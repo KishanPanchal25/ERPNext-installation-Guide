@@ -86,6 +86,8 @@ For ubuntu 20.04
 IMPORTANT :During this installation you'll be prompted to set the MySQL root password.
 If you are not prompted for the same You can initialize the MySQL server setup by executing 
 the following command
+
+    sudo service mariadb restart
     
     sudo mysql_secure_installation
     
